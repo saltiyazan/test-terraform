@@ -9,4 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Simple Check
-        run: echo "Running check"
+        run: |
+          echo "Running check"
+          exit 1
